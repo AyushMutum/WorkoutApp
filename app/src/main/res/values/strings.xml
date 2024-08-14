@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AndroidAppDev</string>
+    <string name="hello_message">"Welcome to Your Fitness Journey!"!</string>
+    <string name="yoga">Yoga</string>
+    <string name="hypertrophy_exercise">Hypertrophy exercise</string>
+</resources>

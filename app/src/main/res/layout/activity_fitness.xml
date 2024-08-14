@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FitnessActivity"
+    android:padding="30dp">
+
+
+    <TextView
+        android:id="@+id/tv_hypertrophy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/hypertrophy_exercise"
+        android:textColor="#651CE6"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <TextView
+        android:id="@+id/tv_mondayEx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="1. Monday - incline bench press, dumbell incline flt,"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197" />
+
+    <TextView
+        android:id="@+id/tv_tuesdayEx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="2. Tuesday - incline bench press, dumbell incline flt,"
+        android:textSize="14sp"
+      app:layout_constraintStart_toStartOf="@+id/tv_mondayEx"
+        app:layout_constraintEnd_toEndOf="@+id/tv_mondayEx"
+        app:layout_constraintTop_toBottomOf="@+id/tv_mondayEx"
+        />
+
+    <TextView
+        android:id="@+id/tv_wednesdayEx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="3. Wednesday-incline bench press, dumbell incline flt,"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_tuesdayEx"
+        app:layout_constraintEnd_toEndOf="@+id/tv_tuesdayEx"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tuesdayEx"
+       />
+
+    <TextView
+        android:id="@+id/tv_thrusdayEx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="4. Thrusday - incline bench press, dumbell incline flt,"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_wednesdayEx"
+        app:layout_constraintEnd_toEndOf="@+id/tv_wednesdayEx"
+        app:layout_constraintTop_toBottomOf="@+id/tv_wednesdayEx" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
